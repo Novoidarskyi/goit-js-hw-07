@@ -10,7 +10,7 @@ const ingredients = [
 const listIngredientsRef = document.querySelector("#ingredients");
 
 const listOfIngredients = ingredients.map((ingredient) => {
-  let item = document.createElement("li");
+  const item = document.createElement("li");
   item.textContent = ingredient;
   return item;
 });
